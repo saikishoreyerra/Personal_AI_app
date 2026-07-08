@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain_community.tools import DuckDuckGoSearchRun
+from langchain_community.tools.ddg_search import DuckDuckGoSearchRun
 from langgraph.prebuilt import create_react_agent
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.messages import SystemMessage
